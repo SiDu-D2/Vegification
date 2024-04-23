@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>The Vegifier</h1>
+    <p>Paste your recipe below to convert it into a vegan version:</p>
+        
+    <textarea id="recipeInput" placeholder="Paste your recipe here..."></textarea>
+    
+    <div>
+        <label class="filter-label">Select filters (optional):</label>
+        <div class="filters">
+            <input type="checkbox" id="glutenFree" name="glutenFree">
+            <label for="glutenFree">Gluten-free</label>
+        </div>
+        <div class="filters">
+            <input type="checkbox" id="noProcessedFoods" name="noProcessedFoods">
+            <label for="noProcessedFoods">No processed foods</label>
+        </div>
+    </div>
+
+    <button onclick="convertRecipe()">Convert Recipe</button>
+</div>
+    </div>
+</body>
+</html>

@@ -6,7 +6,9 @@ const veganSubs = {
     'eggs': 'mashed banana',
     'honey': 'maple syrup',
     'gelatin': 'agar agar',
-    'chicken': 'chicken substitute'
+    'chicken': 'seitan'
+    'beef': 'seitan'
+    'fish': 'jackfruit'
 };
 
 function convertRecipe() {
